@@ -1,0 +1,14 @@
+{
+    "name": "iggyvolz/phello_world",
+    "description": "Demonstration language",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": "phello"
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+function usage():void
+{
+
+}
+if($argc<2)
+{
+    usage();
+}
+$file = $argv[1];
+if(empty($file)) {
+    usage();
+}
+if(!file_exists($file)) {
+    usage();
+}
+$conts = file_get_contents($file);
+if(empty($conts)) {
+    echo "Hello World\n";
+} else {
+    eval($conts);
+}
